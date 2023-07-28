@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration form</title>
+</head>
+<body>
+    <div class="form1">
+        <h1 style="color: hotpink;">Student registration form</h1>
+        <form action="/" method="post">
+            <label>First Name: *</label>
+            <input type="text" name="fname" required placeholder="Firstname">
+            <br>
+            <br>
+            <label>Last Name: *</label>
+            <input type="text" name="lname" required placeholder="Lastname">
+            <br>
+            <br>
+            <label>Phone Number: *</label>
+            <input type="text" name="phone" required placeholder="number">
+            <br>
+            <br>
+            <label>Email: *</label>
+            <input type="text" name="mail" required placeholder="enter mail">
+            <br>
+            <br>
+            <label>Degree: *</label>
+            <input type="text" name="degree" required placeholder="degree">
+            <br>
+            <br>
+            <label>Course: *</label>
+            <input type="text" name="course" required placeholder="Coursename">
+            <br>
+            <br>
+            <label>Gender: *</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <br>
+            <input type="submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
+<style>
+    .form1{
+        text-align: center;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="submit"]:hover {
+        background-color: greenyellow;
+    }
+    
+</style>
+
+
+
